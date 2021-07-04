@@ -1,0 +1,59 @@
+
+
+.calendar {
+  font-family: Arial;
+}
+.calendar .not_month_date{background-color: #ebebeb;color:#afafaf; cursor:auto;}
+.selected_date{ color:white; background-color:#ffcc5d; font-weight: 600;}
+
+
+.grid-container {
+display: grid;
+grid-template-columns: 14% 14% 14% 14% 14% 14% 14%;
+
+}
+
+.grid-container .header {background-color:rgb(39, 126, 207); color:white}
+
+
+.grid-item {
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+height:40px;
+}
+
+.grid-item span{
+display: block;
+}
+
+.next,.prev{
+margin-top:5vh;
+background-color: rgb(39, 126, 207);
+border: none;
+color: white;
+padding: 8px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin-left:1vh;
+cursor: pointer;
+border-radius: 5px;
+}
+
+.demo{
+width:60%;margin: auto;
+margin-top:10vh;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding:20px;
+border-radius: 8px;
+background:white;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+.demo{
+  width:100%;margin:0;
+}
+}

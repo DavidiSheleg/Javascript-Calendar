@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="calendar.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    </head>
+
+    <body>
+        <div class="demo">
+            <div id="cal" class="calendar"></div>
+        </div>
+       
+
+    </body>
+</html>
+
+<script src="calendar.js"></script>
+<script>
+const events=[
+    {name:"My BirthDay",date:"2021-07-23"},
+    {name:"Meeting",date:"2021-07-12"},
+    {name:"Holiday",date:"2021-08-1"}
+];
+
+    var my_cal = new Calendar("cal","2020-01-01","2022-01-01","2021-07-04",events);
+</script>
